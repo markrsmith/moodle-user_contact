@@ -25,7 +25,7 @@
         $debug = false;
 
         if ($cid == SITEID) {
-            $blockcontext = get_context_instance(CONTEXT_SYSTEM, $sid);
+//            $blockcontext = get_context_instance(CONTEXT_SYSTEM, $sid);
         } else {
             $blockcontext = get_context_instance(CONTEXT_BLOCK, $bid);
         }
