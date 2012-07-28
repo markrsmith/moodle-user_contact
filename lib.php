@@ -29,7 +29,7 @@
         } else {
             $blockcontext = get_context_instance(CONTEXT_BLOCK, $bid);
         }
-        $hiddenrecipients = get_users_by_capability($blockcontext, 'block/user_contact:hiddenrecipient', 'u.id, u.firstname, u.lastname, u.email, u.mailformat', 'u.lastname ASC','','','','',false);
+//        $hiddenrecipients = get_users_by_capability($blockcontext, 'block/user_contact:hiddenrecipient', 'u.id, u.firstname, u.lastname, u.email, u.mailformat', 'u.lastname ASC','','','','',false);
         if ($debug) {
             echo '****** Written from line '.__LINE__.' of '.__FILE__.' ********<br />';
             echo '<hr />';
